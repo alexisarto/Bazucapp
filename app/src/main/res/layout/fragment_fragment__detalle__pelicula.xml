@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".view.FragmentDetallePelicula">
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <ImageView
+        android:id="@+id/fragment_image_view_detalle_pelicula"
+        android:layout_width="200dp"
+        android:layout_height="300dp"
+        android:layout_centerHorizontal="true"
+        android:scaleType="centerCrop" />
+
+
+       <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="35dp"
+           android:layout_below="@id/fragment_image_view_detalle_pelicula"
+           android:layout_marginTop="5dp"
+        android:textColor="#fff"
+        android:layout_marginRight="12dp"
+        android:layout_marginLeft="12dp"
+           android:fontFamily="sans-serif"
+
+        android:id="@+id/fragment_detalle_nombre_pelicula"/>
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:textColor="#fff"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+            android:layout_below="@id/fragment_detalle_nombre_pelicula"
+            android:layout_marginTop="5dp"
+        android:id="@+id/fragment_sinopsis_peliculas"/>
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/fragment_sinopsis_peliculas"
+            android:layout_centerHorizontal="true"
+            android:text="Ver trailer"
+            android:id="@+id/boton_trailer"
+            />
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

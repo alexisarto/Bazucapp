@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".view.FragmentPeliculas"
+    android:background="#000">
+<FrameLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Terror"
+        android:layout_marginLeft="15dp"
+        android:textColor="#ffffff"
+        android:textSize="25dp"
+        android:layout_centerHorizontal="true"
+
+
+
+        />
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/recycler_biblioteca_peliculas"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Comedia"
+        android:layout_marginLeft="15dp"
+        android:textSize="25dp"
+        android:textColor="#ffffff"
+        android:layout_below="@id/recycler_biblioteca_peliculas"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/recycler_biblioteca_peliculas2"
+        android:layout_below="@id/recycler_biblioteca_peliculas"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Animadas"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#ffffff"
+        android:layout_below="@id/recycler_biblioteca_peliculas2"
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/recycler_biblioteca_peliculas3"
+        android:layout_below="@id/recycler_biblioteca_peliculas2"
+        >
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ficcion"
+        android:textSize="25dp"
+        android:layout_marginLeft="15dp"
+        android:textColor="#ffffff"
+        android:layout_below="@id/recycler_biblioteca_peliculas3"
+        android:layout_centerHorizontal="true"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:id="@+id/recycler_biblioteca_peliculas4"
+        android:layout_below="@id/recycler_biblioteca_peliculas3"/>
+
+
+    </RelativeLayout>
+</FrameLayout>
+    </ScrollView>
+
+
+
+

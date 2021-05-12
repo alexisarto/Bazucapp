@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+<item android:id="@+id/navButtonCategoriasFavoritas"
+    android:title="Categorias"
+    android:icon="@drawable/altascategorias">
+
+</item>
+
+    <item android:id="@+id/navButtonSearchView"
+        android:title="Buscar Peliculas"
+        android:icon="@drawable/iconosearchview"
+        >
+
+    </item>
+
+    <item android:id="@+id/navButtonLogOut"
+        android:title="Log Out"
+        android:icon="@drawable/logout"
+        >
+
+    </item>
+    <item android:id="@+id/botonFavoritosNav"
+        android:title="Favoritos"
+        android:icon="@drawable/ic_favorite_black_24dp"
+        >
+
+    </item>
+
+
+
+
+
+
+
+
+
+</menu>
